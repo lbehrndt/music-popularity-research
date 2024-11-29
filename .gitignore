@@ -1,0 +1,31 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+ENV.bak/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Logs and cache
+*.log
+*.cache
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
