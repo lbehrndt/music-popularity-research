@@ -29,3 +29,6 @@ build/
 
 # Environment files
 .env
+
+# Generated R pdf
+Rplots.pdf
