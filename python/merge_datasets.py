@@ -100,6 +100,10 @@ final_merged_data = pd.merge(
     how="left",
 )
 
+# Remove duplicates and rows with null values
+final_merged_data.drop_duplicates(inplace=True)
+final_merged_data.dropna(subset=["position", "artist_id"], inplace=True)
+
 # Sort by the week and position
 final_merged_data.sort_values(by=["week of", "position"], inplace=True)
 
