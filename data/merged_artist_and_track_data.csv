@@ -1,5 +1,5 @@
-track_id,title,artist,explicit,track_popularity,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,artist_id,total_followers,genres,artist_popularity
-track_id,title,artist,explicit,track_popularity,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,,,,
+track_id,title,artists,explicit,track_popularity,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,artist_id,total_followers,genres,artist_popularity
+track_id,title,artists,explicit,track_popularity,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,,,,
 0HPD5WQqrq7wPWR7P7Dw1i,TiK ToK,Kesha,False,83,0.0991,0.755,199693,0.837,0,2,0.289,-2.718,0,0.142,120.028,4,0.714,6LqNN22kT3074XbTVUrhzX,8311262,"['dance pop', 'pop']",81
 2igwFfvr1OAGX9SKDCPBwO,Empire State Of Mind,JAY-Z,True,80,0.0295,0.491,276920,0.956,0,11,0.46,-1.538,1,0.392,173.585,4,0.811,3nFkdlSjzX9mRTtwJOzDYB,9579702,"['east coast hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap']",85
 2igwFfvr1OAGX9SKDCPBwO,Empire State Of Mind,Alicia Keys,True,80,0.0295,0.491,276920,0.956,0,11,0.46,-1.538,1,0.392,173.585,4,0.811,3DiDSECUqqY1AuBP8qtaIa,12239280,"['neo soul', 'pop', 'r&b']",81
