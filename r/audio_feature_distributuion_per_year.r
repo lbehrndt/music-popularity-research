@@ -19,8 +19,8 @@ audio_features <- c(
 
 # Create a box plot for each audio feature per year
 for (feature in audio_features) {
-    p <- ggplot(data, aes(x = year, y = .data[[feature]], fill = year)) +
-        geom_boxplot() +
+    p <- ggplot(data, aes(x = year, y = .data[[feature]])) +
+        geom_boxplot(fill = "blue") +
         labs(
             title = paste("Distribution of", feature, "per Year"),
             x = "Year",
