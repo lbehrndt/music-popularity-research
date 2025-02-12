@@ -74,6 +74,7 @@ billboard_data = pd.read_csv(
 
 # Function to split artists in billboard data
 billboard_data["artists"] = billboard_data["artists"].apply(split_artists)
+billboard_data["peak position"] = pd.to_numeric(billboard_data["peak position"], errors="coerce")
 
 # Explode the artists column in billboard data to have one artist per row
 billboard_data_exploded = billboard_data.explode("artists")
@@ -103,9 +104,8 @@ final_merged_data = pd.merge(
 # Remove duplicates and rows with null values
 final_merged_data.drop_duplicates(inplace=True)
 final_merged_data.dropna(subset=["position", "artist_id"], inplace=True)
-
 # Sort by the week and position
 final_merged_data.sort_values(by=["week of", "position"], inplace=True)
-
+final_merged_data["popularity"] = 100 - final_merged_data["peak position"]
 # Save the final merged dataset to a new CSV file
 final_merged_data.to_csv("data/final_merged_data.csv", index=False)

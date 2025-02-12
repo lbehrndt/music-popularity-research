@@ -46,7 +46,7 @@ for feature, values in importance_over_years.items():
     plt.xlabel("Year")
     plt.ylabel("Importance Value")
     plt.title(f"{feature} Importance Over Years")
-    plt.savefig(f"plots/{feature}_importance.png")
+    plt.savefig(f"plots/lr/{feature}_importance.png")
     plt.close()
 
 # Plot model accuracy over years
@@ -55,7 +55,7 @@ plt.plot(years, r2_scores, marker='o')
 plt.xlabel("Year")
 plt.ylabel("R² Score")
 plt.title("Linear Regression Model Accuracy Over Years")
-plt.savefig("plots/model_accuracy.png")
+plt.savefig("plots/lr/model_accuracy.png")
 plt.close()
 
-print("Plots saved in 'plots' folder.")"
+print("Plots saved in 'plots/lr' folder.")
