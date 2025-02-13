@@ -1,39 +1,55 @@
-## Project Progress Timeline
+# Data Science with Python and R
 
-### Data Collection
+This repository contains the code for our research question "How do audio features affect popularity over the years?", which explores various scripts to generate insightful plots and graphs to support this question.
 
-We started by scraping weekly Billboard chart data from January 2, 2010, to November 16, 2024, saving it as `billboard_charts.csv`. Next, we retrieved track and artist data via Spotify’s API, saved separately as `spotify_tracks.csv` and `spotify_artists.csv` for better organization.
+## Getting Started
 
----
+### Cloning the Repository
+To download the project, use the following command:
+```sh
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+```
 
-### Data Normalization and Merging
+### Creating a Spotify API account
 
-Billboard listed artists differently than Spotify (e.g., "Kesha featuring Adele" vs. `['Ke$ha', 'Adele']`). We normalized names into arrays, standardizing formats and reducing inconsistencies. Some data loss occurred during normalization and merging, but this was acceptable given the dataset’s size. The final merged dataset includes ~50,000 entries, down from 75,000 Billboard entries, providing high-quality data for analysis.
+1. Go to Spotifys Web [https://developer.spotify.com/](API) and follow the steps to get started.
 
----
+2. After creating an account, create a `.env` file from the `.env.example`:
+```env
+SPOTIFY_CLIENT_ID=YOUR_ID
+SPOTIFY_CLIENT_SECRET=YOUR_SECRET
+```
 
-### Individual Dataset Usage
+3. Paste in your credentials as described on Spotify.
 
-The original datasets remain useful for specific tasks. For example, our `unique_songs_per_year_bar_chart` visualization relied solely on `billboard_charts.csv`, as it didn’t require Spotify data. We documented each dataset used to ensure clarity and transparency.
+### Running Python Scripts
+Ensure you have Python 3 installed. Install dependencies using:
+```sh
+pip install -r requirements.txt
+```
+To run an individual Python script, use:
+```sh
+python path/to/script.py
+```
 
----
+### Running R Scripts
+Ensure you have R installed along with necessary packages. You can install dependencies in R using:
+```r
+install.packages("tidyverse")  # Example dependency
+```
+To run an individual R script, use:
+```sh
+Rscript path/to/script.R
+```
 
-### Audio Features
-
-We retrieved various audio features for each track using Spotify’s API ([More Info](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)). These features are analyzed to understand how the sound characteristics of popular songs have evolved over time.
-
-
-| **Audio Feature**      | **Description**                                                                 |
-|------------------------|---------------------------------------------------------------------------------|
-| **Track Popularity**    | Measures the popularity of a track on a scale from 0 to 100.                     |
-| **Acousticness**        | Indicates the likelihood that a track is purely acoustic, with values between 0 and 1. |
-| **Danceability**        | Reflects how suitable a track is for dancing, ranging from 0 (least) to 1 (most). |
-| **Duration (ms)**       | The length of the track in milliseconds, providing insight into song duration trends. |
-| **Energy**              | Measures the intensity and activity of a track, from 0 (low) to 1 (high).       |
-| **Instrumentalness**    | Indicates whether a track is instrumental, ranging from 0 (not) to 1 (instrumental). |
-| **Key**                 | Represents the musical key of the track (e.g., 0 for C major).                 |
-| **Liveness**            | Measures the presence of a live audience in the track, from 0 (not live) to 1 (live). |
-| **Loudness**            | Reflects the overall loudness of the track in decibels (dB).                   |
-| **Speechiness**         | Measures the presence of spoken words in the track, from 0 (no speech) to 1 (mostly speech). |
-| **Tempo**               | The track’s beats per minute (BPM), indicating the pace of the song.           |
-| **Valence**             | Indicates the positivity or negativity of the track, ranging from 0 (negative) to 1 (positive). |
+## Project Structure
+```
+📂 MUSIC-POPULARITY-RESEARCH
+├── 📂 data            # Contains datasets
+├── 📂 plots           # Contains generated plots
+├── 📂 python          # Contains Python Scripts
+├── 📂 r               # Contains R scripts
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
+```

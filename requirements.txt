@@ -1,0 +1,8 @@
+matplotlib
+re
+bs4
+python-dotenv
+numpy
+pandas
+scikit-learn
+seaborn
