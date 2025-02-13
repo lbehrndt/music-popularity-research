@@ -1,6 +1,6 @@
 # Data Science with Python and R
 
-This repository contains the code for our research question "How do audio features affect popularity over the years?", which explores various scripts to generate insightful plots and graphs to support this question.
+This repository contains the code for our research question "How do musical characteristics affect the popularity of songs over time, and whether or not COVID has influenced this?", which explores various scripts to generate insightful plots and graphs to support this question.
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ python path/to/script.py
 ### Running R Scripts
 Ensure you have R installed along with necessary packages. You can install dependencies in R using:
 ```r
-install.packages("tidyverse")  # Example dependency
+install.packages("tidyverse")
 ```
 To run an individual R script, use:
 ```sh
