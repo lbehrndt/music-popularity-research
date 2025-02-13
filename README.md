@@ -34,7 +34,7 @@ python path/to/script.py
 ```
 
 ### Running R Scripts
-Ensure you have R installed along with necessary packages. You can install dependencies in R using:
+Ensure you have R installed along with necessary packages (tidyverse, scales). You can install dependencies in R using:
 ```r
 install.packages("tidyverse")
 ```
