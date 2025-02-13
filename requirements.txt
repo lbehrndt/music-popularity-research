@@ -1,5 +1,4 @@
 matplotlib
-re
 bs4
 python-dotenv
 numpy
