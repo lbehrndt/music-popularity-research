@@ -13,7 +13,7 @@ cd YOUR_REPOSITORY
 
 ### Creating a Spotify API account
 
-1. Go to Spotifys Web [https://developer.spotify.com/](API) and follow the steps to get started.
+1. Go to Spotifys Web [Spotify's Web API](https://developer.spotify.com/) and follow the steps to get started.
 
 2. After creating an account, create a `.env` file from the `.env.example`:
 ```env
