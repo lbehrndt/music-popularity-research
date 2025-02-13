@@ -7,7 +7,8 @@ Music trends shift due to various factors, including technological advancements,
 This repository contains the code for our research question "How do musical characteristics affect the popularity of songs over time, and whether or not COVID has influenced this?", which explores various scripts to generate insightful plots and graphs to support this question.
 
 ## Visualization
-![image](https://github.com/user-attachments/assets/5dcf918b-9de6-4dfe-8481-68eef655fd74)
+![image](https://github.com/user-attachments/assets/5dcf918b-9de6-4dfe-8481-68eef655fd74) 
+
 The graph above illustrates how the correlation between different musical features and popularity has evolved over time. (2010–2024).
 
 For a deeper analysis, check out our presentation: https://docs.google.com/presentation/d/1oPbIgviwv0gNkZu2t5OfWKfuZmfNWo22DO01aFbaS2M/edit?pli=1#slide=id.p
