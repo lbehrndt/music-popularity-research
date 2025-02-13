@@ -1,4 +1,4 @@
-# Data Science with Python and R
+# Music Popularity Research Repository 
 
 ## Our Motivation
 Music trends shift due to various factors, including technological advancements, audience preferences, and industry strategies. A wealth of data on song popularity and individual tracks is available online. Additionally, key audio features such as tempo, duration, and valence influence a song's appeal. With this project, we aimed to explore these trends through data analysis, identifying patterns that shape the future of popular music by examining the role of musical features in driving appeal.
