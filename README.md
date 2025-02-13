@@ -19,7 +19,7 @@ For a deeper analysis, check out our presentation: https://docs.google.com/prese
 To download the project, use the following command:
 ```sh
 git clone https://github.com/lbehrndt/music-popularity-research.git
-cd YOUR_REPOSITORY
+cd music-popularity-research
 ```
 
 ### [OPTIONAL] Creating a Spotify API account
