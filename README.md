@@ -1,6 +1,13 @@
 # Data Science with Python and R
 
+## Our Motivation
+Music trends shift for various reasons (technological advancements, audience preferences, and industry strategies). A lot of data for popularity and individual songs are available online. Also, key audio features like tempo, duration, and valence influence song appeal. With this project, we wanted to explore trends through data analysis while identifying patterns shaping the future of popular music by taking a deeper look at the appeal caused by their musical features.
+
+## Research Question
 This repository contains the code for our research question "How do musical characteristics affect the popularity of songs over time, and whether or not COVID has influenced this?", which explores various scripts to generate insightful plots and graphs to support this question.
+
+## Visualization
+
 
 ## Getting Started
 
