@@ -18,11 +18,13 @@ For a deeper analysis, check out our presentation: https://docs.google.com/prese
 ### Cloning the Repository
 To download the project, use the following command:
 ```sh
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/lbehrndt/music-popularity-research.git
 cd YOUR_REPOSITORY
 ```
 
-### Creating a Spotify API account
+### [OPTIONAL] Creating a Spotify API account
+
+> You only need to do this if you want to scrape the data yourself.
 
 1. Go to Spotifys Web [Spotify's Web API](https://developer.spotify.com/) and follow the steps to get started.
 
