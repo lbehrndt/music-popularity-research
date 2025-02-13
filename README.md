@@ -1,4 +1,4 @@
-# Data Science with Python and R
+# An Analysis over music features and how do they affect the popularity of songs over time 
 
 ## Our Motivation
 Music trends shift due to various factors, including technological advancements, audience preferences, and industry strategies. A wealth of data on song popularity and individual tracks is available online. Additionally, key audio features such as tempo, duration, and valence influence a song's appeal. With this project, we aimed to explore these trends through data analysis, identifying patterns that shape the future of popular music by examining the role of musical features in driving appeal.
@@ -6,13 +6,31 @@ Music trends shift due to various factors, including technological advancements,
 ## Research Question
 This repository contains the code for our research question "How do musical characteristics affect the popularity of songs over time, and whether or not COVID has influenced this?", which explores various scripts to generate insightful plots and graphs to support this question.
 
-## Visualization
+## Our Results 
+0. Overall for each music feature, their influence over music popularity tends to be *unstable* 
+
+1. Songs with higher levels of *energy, danceability, and positive valence (happiness)* are more likely to achieve higher popularity rankings on Billboard charts and Spotify over time.
+
+2. *Covid*
+After COVID (starting from January 2023) people tend to favor more quiet and relaxed song
+During the pandemic, songs with lower valence (sadness) and higher acousticness gained popularity as people sought more reflective or emotional music.
+Songs with higher danceability and energy declined during lockdowns due to fewer social gatherings like parties and clubs.
+
+4. Song durations became *shorter*.
+
+## A Quick Example: Visualization
 ![image](https://github.com/user-attachments/assets/5dcf918b-9de6-4dfe-8481-68eef655fd74) 
 
 The graph above illustrates how the correlation between different musical features and popularity has evolved over time. (2010–2024).
 
 For a deeper analysis, check out our presentation: https://docs.google.com/presentation/d/1oPbIgviwv0gNkZu2t5OfWKfuZmfNWo22DO01aFbaS2M/edit?pli=1#slide=id.p
 
+## Our Key Takeaways
+1. The influence of individual music features on popularity is unstable and varies over time.
+2. COVID-19 correlated with changes in audio features of popular songs, but the overall impact was minimal.
+3. Song durations shortened.
+4. Research limitations include constraints in popularity measurement, prediction model accuracy, and potential confounding bias from external factors.
+   
 ## Getting Started
 
 ### Cloning the Repository
